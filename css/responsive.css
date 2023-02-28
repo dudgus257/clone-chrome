@@ -1,0 +1,154 @@
+@media (max-width:768px) {
+    .inner{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        padding:0
+    }
+    .inner > div{
+        flex:none;
+        width: 100%;
+    }
+    .chrome_nav{
+        display:none
+    }
+    /* welcome */
+    .welcome{
+        height: 90vh;
+    }
+    .heading{
+        width: 100%;
+        top:40%
+    }
+    .heading img{
+        font-size: 80px;
+    }
+    .heading h1{
+        font-size: 36px;
+        margin-top:0;
+        font-weight: 400;
+    }
+    .chrome-laptop img{
+        width: 334px;
+        height: 201px;
+        margin-top:500px
+    }
+    /* feature,desc */
+    .desc{
+        font-size: 24px;
+        padding:80px 0px 56px;
+    }
+    .desc span{
+        margin:0;
+        padding:0px 28px 8px;
+    }
+    .desc h1{
+        margin:0;
+        padding:0px 28px 8px;
+    }
+    .desc p{
+        margin:0;
+        padding:0px 28px 8px;
+    }
+    .read-more{
+        margin:0;
+        padding:0px 28px 8px
+    }
+    .photo img{
+        height: 254px;
+    }
+    /* chrome-more */
+    .more_inner{
+        width: 100%;
+    }
+    .more_inner h1{
+        font-size: 28px;
+    }
+    .more_content{
+        flex-direction: column;
+        width: 90%;
+    }
+    .more_item{
+        width:90%;
+        margin:10px 20px
+    }
+    /* call-action */
+    .call-action-inner{
+        width: 100%;
+        height: auto;
+    }
+    .call-action-content{
+        flex-direction: column;
+        padding:0
+    }
+    .call-action-left{
+        width: 100%;
+        padding:0 28px
+    }
+    .call-action-left h2{
+        font-size: 28px;
+        text-align:center;
+        margin-top:80px
+    }
+    .download-btn{
+        margin:auto
+    }
+    .call-action-right{
+        width: 100%;
+    }
+    /* footer */
+    footer{
+        padding:0 20px
+    }
+    .footer-inner{
+        width: 100%;
+    }
+    .sns-outer{
+        padding:30px 28px;
+    }
+    
+    /* sitemap */
+    .link-item{
+        float:none;
+        width: 100%;
+    }
+    .link-item-title{
+        border-bottom:1px solid #ddd;
+        margin-top:20px;
+        padding-bottom:10px;
+        position:relative
+    }
+    .link-item-title:after{
+        content: '\e942';
+        font-family: xeicon;
+        position:absolute;
+        right:10px;
+        transition:0.3s
+    }
+    .link-item-title.active:after{
+        transform:rotate(180deg)
+    }
+    .link-item-content{
+        display:none
+    }
+    /* copyright */
+    .copyright{
+        text-align:center;
+        border:none;
+        padding-top:0
+    }
+    .logo-footer{
+        width: 100%;
+    }
+    .policy{
+        float:none;
+        margin-bottom:20px
+    }
+    .polycy a{
+        font-size: 14px;
+        margin:2px
+    }
+    .language{
+        float:none
+    }
+}

@@ -49,17 +49,12 @@ section.feature{
 .inner{
     width: 1250px;
     margin:auto;
-    /* overflow:hidden; */
     display:flex;
     align-items: center;
     padding:60px 0
 }
 .inner > div {
-    /* float:left;
-    width: 50%; */
     flex:1
-}
-.desc{
 }
 .desc span{
     margin:0 107px;
@@ -106,9 +101,18 @@ section.feature{
 .read-more:hover:after{
     transform: translateX(5px);
 }
-.photo{
+/* display */
+.welcome{
+    /* display:none */
 }
-.photo img{
+.chrome_more{
+    /* display:none */
+}
+.call-action{
+    /* display:none */
+}
+footer{
+    /* display:none */
 }
 /* header */
 header{
@@ -130,6 +134,11 @@ header{
 }
 .download{
     float:right;
+    transform:translateX(200px);
+    transition:0.5s
+}
+.download.active{
+    transform:translateX(0)
 }
 .chrome_nav{
     display:block;
@@ -164,7 +173,6 @@ header{
     left:50%;
     transform:translate(-50%, -50%);
     text-align:center;
-    /* border:1px solid #000 */
 }
 .heading img {
     width: 80px;
@@ -213,18 +221,16 @@ header{
 .statics a{
     color: #1967d2;
 }
-.chrome-desktop{
+.chrome-laptop{
     grid-column: 3/span 8;
     position:relative;
     margin-top:44px;
     width: 100%;
 }
-.chrome-desktop img{
+.chrome-laptop img{
     display:block;
     width: 832px;
     margin:auto;
-    display:block;
-    /* position:absolute; */
     margin-top:40%
 }
 /* chrome-more */
